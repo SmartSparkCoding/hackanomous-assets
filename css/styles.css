@@ -60,7 +60,14 @@ h1 {
   font-size: clamp(1.5rem, 2.4vw, 2.3rem);
 }
 
-.github-btn {
+.header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.55rem;
+}
+
+.header-btn {
   border: 1px solid var(--brand);
   color: var(--brand);
   text-decoration: none;
@@ -71,8 +78,8 @@ h1 {
   background: #ffffff;
 }
 
-.github-btn:hover,
-.github-btn:focus-visible {
+.header-btn:hover,
+.header-btn:focus-visible {
   background: var(--brand);
   color: #ffffff;
   transform: translateY(-1px);
@@ -219,7 +226,7 @@ h1 {
     align-items: flex-start;
   }
 
-  .github-btn {
+  .header-actions {
     align-self: flex-end;
   }
 }

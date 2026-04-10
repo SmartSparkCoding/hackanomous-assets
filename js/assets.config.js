@@ -3,13 +3,28 @@ window.ASSET_SITE_CONFIG = {
   assets: [
     {
       slug: "asset1",
-      title: "Asset 1",
-      description: "Main logo asset in both raster and vector format."
+      title: "Hackanomoly - LIGHT w/ No Rounding",
+      description: "Light version without rounded corners for crisp, straight-edge use."
     },
     {
       slug: "asset2",
-      title: "Asset 2",
-      description: "Secondary mark suitable for social cards and banners."
+      title: "Hackanomoly - LIGHT w/ Rounding",
+      description: "Light version with rounded corners for a softer branded look."
+    },
+    {
+      slug: "asset3",
+      title: "Hackanomoly - TRANSPARENT LIGHT",
+      description: "Light transparent version for use on darker or colored backgrounds."
+    },
+    {
+      slug: "asset4",
+      title: "Hackanomoly - TRANSPARENT DARK",
+      description: "Dark transparent version for use on lighter backgrounds."
+    },
+    {
+        slug: "asset5",
+        title: "Hackanomoly - DARK w/ Rounding",
+        description: "Dark version with rounded corners for friendly, high-contrast placement."
     }
-  ]
+]
 };

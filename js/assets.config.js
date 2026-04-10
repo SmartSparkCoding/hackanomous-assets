@@ -25,6 +25,16 @@ window.ASSET_SITE_CONFIG = {
         slug: "asset5",
         title: "Hackanomoly - DARK w/ Rounding",
         description: "Dark version with rounded corners for friendly, high-contrast placement."
+    },
+    {
+        slug: "asset6",
+        title: "Main Logo - DARK VERSION",
+      description: "Main logo in dark mode for strong contrast on light backgrounds."
+    },
+    {
+        slug: "asset7",
+        title: "Main Logo - LIGHT VERSION",
+      description: "Main logo in light mode for clear visibility on dark backgrounds."
     }
 ]
 };
